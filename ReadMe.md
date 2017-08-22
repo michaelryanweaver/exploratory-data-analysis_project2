@@ -16,12 +16,14 @@ Each of the R scripts answers one of the following questions.
 5. How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
 6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (𝚏𝚒𝚙𝚜 == "𝟶𝟼𝟶𝟹𝟽"). Which city has seen greater changes over time in motor vehicle emissions?
 
-##Requirements
+
+## Requirements
 - the ggplot2 package must be installed.
 
 - there should be a subfolder named "data"" in the folder the scripts are run from containing the following files: 
 
-..- Source_ClassificatCode.rds
+Source_Classification_Code.rds
 
-..- summarySCC_PM25.rd
-these files can be downloaded here: (https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip "Data for Peer Assessment")
+summarySCC_PM25.rds
+
+these files can be downloaded here: [Data for Peer Assessment](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip)
